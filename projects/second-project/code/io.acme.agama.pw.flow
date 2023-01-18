@@ -1,0 +1,5 @@
+Flow io.acme.agama.pw.flow
+     Basepath "/projects/first-project/code"
+RRF "/projects/first-project/web/password/password.ftlh" creds.password
+Log "@info " print password
+user = Call java.lang.integer#parseInt creds.password

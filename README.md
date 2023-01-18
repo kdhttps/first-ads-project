@@ -1,2 +1,1 @@
-# first-ads-project
-first ads project
+# my ads project

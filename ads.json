@@ -1,0 +1,16 @@
+{
+  "first-project": {
+    "name": "first-project",
+    "description": "Description of the first project",
+    "project_type": "Community",
+    "author": "kdhttps",
+    "locale": "en_US"
+  },
+  "second-project": {
+    "name": "second-project",
+    "description": "Description of the second project",
+    "project_type": "Community",
+    "author": "kdhttps",
+    "locale": "en_US"
+  }
+}
