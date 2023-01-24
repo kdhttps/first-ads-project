@@ -1,16 +1,29 @@
 {
-  "first-project": {
-    "name": "first-project",
-    "description": "Description of the first project",
-    "project_type": "Community",
-    "author": "kdhttps",
-    "locale": "en_US"
-  },
-  "second-project": {
-    "name": "second-project",
-    "description": "Description of the second project",
-    "project_type": "Community",
-    "author": "kdhttps",
-    "locale": "en_US"
-  }
+    "first-project": {
+        "name": "first-project",
+        "description": "Description of the first project",
+        "project_type": "Community",
+        "author": "kdhttps",
+        "locale": "en_US"
+    },
+    "second-project": {
+        "name": "second-project",
+        "description": "Description of the second project",
+        "project_type": "Community",
+        "author": "kdhttps",
+        "locale": "en_US"
+    },
+    "third-project": {
+        "gh_author": "kdhttps",
+        "gh_repo_path": "my-ads-projects",
+        "project_name": "third-project",
+        "version": "1.0.0",
+        "author": "kdhttps",
+        "author_website": "github.com",
+        "github_uri": "https://github.com/kdhttps/my-ads-projects",
+        "project_description": "3rd project",
+        "license": "MIT",
+        "last_updated": "2023/10/10",
+        "project_type": "community"
+    }
 }
