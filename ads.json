@@ -38,5 +38,18 @@
         "license": "MIT",
         "last_updated": "1674651355580",
         "project_type": "community"
+    },
+    "fifth_project": {
+        "gh_author": "kdhttps",
+        "gh_repo_path": "my-ads-projects",
+        "project_name": "fifth_project",
+        "version": "0.0.1",
+        "author": "kdhttps",
+        "author_website": "https://github.com/kdhttps/my-ads-projects",
+        "github_uri": "https://github.com/kdhttps/my-ads-projects",
+        "project_description": "fifth project",
+        "license": "MIT",
+        "last_updated": "1674668485466",
+        "project_type": "community"
     }
 }
