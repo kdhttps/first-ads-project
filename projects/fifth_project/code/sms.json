@@ -3,33 +3,33 @@
 		{
 			"width": 140,
 			"height": 85,
-			"id": "Agama-log-Node-7b27d763-a27b-450b-a5c5-34719ad1466f",
+			"id": "Agama-call-Node-0acbf81c-fc62-4d28-a5c1-03bf8c5eda95",
 			"position": {
-				"x": 370,
+				"x": 540,
 				"y": 30
 			},
-			"type": "log",
+			"type": "call",
 			"data": {
-				"id": "Agama-log-Node-7b27d763-a27b-450b-a5c5-34719ad1466f",
-				"type": "Agama-log-Node",
-				"parentId": "Agama-call-Node-6a87a26e-254e-494e-8821-1d0af22fefb0",
+				"id": "Agama-call-Node-0acbf81c-fc62-4d28-a5c1-03bf8c5eda95",
+				"type": "Agama-call-Node",
+				"parentId": "Agama-log-Node-7b27d763-a27b-450b-a5c5-34719ad1466f",
 				"whenCondition": "",
 				"inRepeatBlock": false,
 				"handles": [],
 				"position": {
-					"x": 370,
+					"x": 540,
 					"y": 30
 				},
 				"agamaData": {
-					"id": "Agama-log-Node-7b27d763-a27b-450b-a5c5-34719ad1466f",
-					"type": "Agama-log-Node",
+					"id": "Agama-call-Node-0acbf81c-fc62-4d28-a5c1-03bf8c5eda95",
+					"type": "Agama-call-Node",
 					"hasSuccess": false,
 					"hasFailure": false,
 					"hasRepeat": false,
 					"hasNoRepeat": false,
 					"whenCondition": "",
 					"inRepeatBlock": false,
-					"parentId": "Agama-call-Node-6a87a26e-254e-494e-8821-1d0af22fefb0",
+					"parentId": "Agama-log-Node-7b27d763-a27b-450b-a5c5-34719ad1466f",
 					"name": "",
 					"basepath": "",
 					"comment": "",
@@ -57,9 +57,73 @@
 				}
 			},
 			"positionAbsolute": {
-				"x": 370,
+				"x": 540,
 				"y": 30
 			}
+		},
+		{
+			"width": 140,
+			"height": 85,
+			"id": "Agama-log-Node-7b27d763-a27b-450b-a5c5-34719ad1466f",
+			"position": {
+				"x": 370,
+				"y": 30
+			},
+			"type": "log",
+			"data": {
+				"id": "Agama-log-Node-7b27d763-a27b-450b-a5c5-34719ad1466f",
+				"type": "Agama-log-Node",
+				"parentId": "Agama-call-Node-6a87a26e-254e-494e-8821-1d0af22fefb0",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 370,
+					"y": 30
+				},
+				"agamaData": {
+					"id": "Agama-log-Node-7b27d763-a27b-450b-a5c5-34719ad1466f",
+					"type": "Agama-log-Node",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasNoRepeat": true,
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"parentId": "Agama-call-Node-6a87a26e-254e-494e-8821-1d0af22fefb0",
+					"name": "",
+					"basepath": "",
+					"comment": "",
+					"flowfilename": "",
+					"assignedvariableName": "",
+					"callType": "Call static method",
+					"arguments": "",
+					"logMessage": "",
+					"variableType": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"whenVariable": "",
+					"whenConditionInputField": "",
+					"whenValue": "",
+					"returnVariable": "",
+					"asssignmentExpression": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": ""
+				},
+				"nextNodeType": "Agama-call-Node"
+			},
+			"positionAbsolute": {
+				"x": 370,
+				"y": 30
+			},
+			"selected": true,
+			"dragging": false
 		},
 		{
 			"width": 140,
@@ -118,7 +182,7 @@
 				},
 				"nextNodeType": "Agama-log-Node"
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 200,
@@ -210,6 +274,23 @@
 			"type": "straight",
 			"source": "Agama-call-Node-6a87a26e-254e-494e-8821-1d0af22fefb0",
 			"target": "Agama-log-Node-7b27d763-a27b-450b-a5c5-34719ad1466f",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		},
+		{
+			"id": "Agama-log-Node-7b27d763-a27b-450b-a5c5-34719ad1466f-Agama-call-Node-0acbf81c-fc62-4d28-a5c1-03bf8c5eda95-e0442f82-7c16-4542-9a0e-4ddaefdc8539",
+			"type": "straight",
+			"source": "Agama-log-Node-7b27d763-a27b-450b-a5c5-34719ad1466f",
+			"target": "Agama-call-Node-0acbf81c-fc62-4d28-a5c1-03bf8c5eda95",
 			"label": "",
 			"labelBgPadding": [
 				8,
