@@ -3,6 +3,49 @@
 		{
 			"width": 140,
 			"height": 85,
+			"id": "Agama-call-Node-202b2eb0-c83f-4f5d-b9f3-f5751cdc3207",
+			"position": {
+				"x": 200,
+				"y": 30
+			},
+			"type": "call",
+			"data": {
+				"id": "Agama-call-Node-202b2eb0-c83f-4f5d-b9f3-f5751cdc3207",
+				"type": "Agama-call-Node",
+				"parentId": "Agama-start-Flow-388394eb-c54a-4045-bef3-55f086ababda",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 200,
+					"y": 30
+				},
+				"agamaData": {
+					"id": "Agama-call-Node-202b2eb0-c83f-4f5d-b9f3-f5751cdc3207",
+					"type": "Agama-call-Node",
+					"parentId": "Agama-start-Flow-388394eb-c54a-4045-bef3-55f086ababda",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"asssignedVariableName": "obj",
+					"comment": "short call",
+					"javaClassName": "jana.integer",
+					"javaMethodName": "parseint",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"arguments": "creds.username",
+					"displayName": "call short"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 200,
+				"y": 30
+			}
+		},
+		{
+			"width": 140,
+			"height": 85,
 			"id": "Agama-start-Flow-388394eb-c54a-4045-bef3-55f086ababda",
 			"type": "start",
 			"sourcePosition": "right",
@@ -20,7 +63,7 @@
 					"hasSuccess": false,
 					"hasFailure": false,
 					"hasRepeat": false,
-					"hasNoRepeat": false,
+					"hasNoRepeat": true,
 					"name": "",
 					"basepath": "",
 					"comment": "",
@@ -47,7 +90,8 @@
 					"displayName": ""
 				},
 				"inRepeatBlock": false,
-				"whenCondition": ""
+				"whenCondition": "",
+				"nextNodeType": "Agama-call-Node"
 			},
 			"position": {
 				"x": 30,
@@ -56,10 +100,30 @@
 			"positionAbsolute": {
 				"x": 30,
 				"y": 30
+			},
+			"selected": false,
+			"dragging": false
+		}
+	],
+	"edges": [
+		{
+			"id": "Agama-start-Flow-388394eb-c54a-4045-bef3-55f086ababda-Agama-call-Node-202b2eb0-c83f-4f5d-b9f3-f5751cdc3207-c87fae05-2163-4a64-b25f-ca72c5141e8b",
+			"type": "straight",
+			"source": "Agama-start-Flow-388394eb-c54a-4045-bef3-55f086ababda",
+			"target": "Agama-call-Node-202b2eb0-c83f-4f5d-b9f3-f5751cdc3207",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
 			}
 		}
 	],
-	"edges": [],
 	"viewport": {
 		"x": 10,
 		"y": 15,
