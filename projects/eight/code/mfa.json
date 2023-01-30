@@ -3,33 +3,33 @@
 		{
 			"width": 140,
 			"height": 85,
-			"id": "Agama-log-Node-ce11d9b9-35ea-4e30-bd83-206df0060b1d",
+			"id": "Agama-rrf-Node-7cf9a6bb-85c5-4fb8-846a-90b3445a2485",
 			"position": {
-				"x": 370,
+				"x": 540,
 				"y": 30
 			},
-			"type": "log",
+			"type": "rrf",
 			"data": {
-				"id": "Agama-log-Node-ce11d9b9-35ea-4e30-bd83-206df0060b1d",
-				"type": "Agama-log-Node",
-				"parentId": "Agama-call-Node-9e9a1e75-e4c8-4e84-bf1d-e1ad0a2c9814",
+				"id": "Agama-rrf-Node-7cf9a6bb-85c5-4fb8-846a-90b3445a2485",
+				"type": "Agama-rrf-Node",
+				"parentId": "Agama-log-Node-ce11d9b9-35ea-4e30-bd83-206df0060b1d",
 				"whenCondition": "",
 				"inRepeatBlock": false,
 				"handles": [],
 				"position": {
-					"x": 370,
+					"x": 540,
 					"y": 30
 				},
 				"agamaData": {
-					"id": "Agama-log-Node-ce11d9b9-35ea-4e30-bd83-206df0060b1d",
-					"type": "Agama-log-Node",
+					"id": "Agama-rrf-Node-7cf9a6bb-85c5-4fb8-846a-90b3445a2485",
+					"type": "Agama-rrf-Node",
 					"hasSuccess": false,
 					"hasFailure": false,
 					"hasRepeat": false,
 					"hasNoRepeat": false,
 					"whenCondition": "",
 					"inRepeatBlock": false,
-					"parentId": "Agama-call-Node-9e9a1e75-e4c8-4e84-bf1d-e1ad0a2c9814",
+					"parentId": "Agama-log-Node-ce11d9b9-35ea-4e30-bd83-206df0060b1d",
 					"name": "",
 					"basepath": "",
 					"comment": "",
@@ -57,9 +57,73 @@
 				}
 			},
 			"positionAbsolute": {
-				"x": 370,
+				"x": 540,
 				"y": 30
 			}
+		},
+		{
+			"width": 140,
+			"height": 85,
+			"id": "Agama-log-Node-ce11d9b9-35ea-4e30-bd83-206df0060b1d",
+			"position": {
+				"x": 370,
+				"y": 30
+			},
+			"type": "log",
+			"data": {
+				"id": "Agama-log-Node-ce11d9b9-35ea-4e30-bd83-206df0060b1d",
+				"type": "Agama-log-Node",
+				"parentId": "Agama-call-Node-9e9a1e75-e4c8-4e84-bf1d-e1ad0a2c9814",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 370,
+					"y": 30
+				},
+				"agamaData": {
+					"id": "Agama-log-Node-ce11d9b9-35ea-4e30-bd83-206df0060b1d",
+					"type": "Agama-log-Node",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasNoRepeat": true,
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"parentId": "Agama-call-Node-9e9a1e75-e4c8-4e84-bf1d-e1ad0a2c9814",
+					"name": "",
+					"basepath": "",
+					"comment": "",
+					"flowfilename": "",
+					"assignedvariableName": "",
+					"callType": "Call static method",
+					"arguments": "",
+					"logMessage": "",
+					"variableType": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"whenVariable": "",
+					"whenConditionInputField": "",
+					"whenValue": "",
+					"returnVariable": "",
+					"asssignmentExpression": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": ""
+				},
+				"nextNodeType": "Agama-rrf-Node"
+			},
+			"positionAbsolute": {
+				"x": 370,
+				"y": 30
+			},
+			"selected": true,
+			"dragging": false
 		},
 		{
 			"width": 140,
@@ -118,7 +182,7 @@
 				},
 				"nextNodeType": "Agama-log-Node"
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 200,
@@ -210,6 +274,23 @@
 			"type": "straight",
 			"source": "Agama-call-Node-9e9a1e75-e4c8-4e84-bf1d-e1ad0a2c9814",
 			"target": "Agama-log-Node-ce11d9b9-35ea-4e30-bd83-206df0060b1d",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		},
+		{
+			"id": "Agama-log-Node-ce11d9b9-35ea-4e30-bd83-206df0060b1d-Agama-rrf-Node-7cf9a6bb-85c5-4fb8-846a-90b3445a2485-75685899-bd48-4589-bc2e-96c2a71cb158",
+			"type": "straight",
+			"source": "Agama-log-Node-ce11d9b9-35ea-4e30-bd83-206df0060b1d",
+			"target": "Agama-rrf-Node-7cf9a6bb-85c5-4fb8-846a-90b3445a2485",
 			"label": "",
 			"labelBgPadding": [
 				8,
