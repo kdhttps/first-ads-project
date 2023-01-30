@@ -64,5 +64,18 @@
         "license": "MIT",
         "last_updated": "1674668738810",
         "project_type": "community"
+    },
+    "seventh": {
+        "gh_author": "kdhttps",
+        "gh_repo_path": "my-ads-projects",
+        "project_name": "seventh",
+        "version": "0.0.1",
+        "author": "kdhttps",
+        "author_website": "https://github.com/kdhttps/my-ads-projects",
+        "github_uri": "https://github.com/kdhttps/my-ads-projects",
+        "project_description": "seventh",
+        "license": "MIT",
+        "last_updated": "1675066061922",
+        "project_type": "community"
     }
 }
